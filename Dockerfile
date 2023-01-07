@@ -76,7 +76,7 @@ FROM scratch
 
 ARG version=0.0.0
 
-LABEL org.opencontainers.image.source="https://github.com/astefanutti/scratch-node"
+LABEL org.opencontainers.image.source="https://github.com/stapelkai/scratch-node"
 
 COPY --from=builder node-v$version/out/Release/node /bin/node
 COPY --from=builder /lib/ld-musl-*.so.1 /lib/
