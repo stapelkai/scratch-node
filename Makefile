@@ -1,4 +1,4 @@
-PREFIX?=astefanutti
+PREFIX?=stapelkai
 REPOSITORIES?=quay.io/$(PREFIX) ghcr.io/$(PREFIX)
 VERSION?=18.10.0
 
