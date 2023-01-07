@@ -1,6 +1,6 @@
 PREFIX?=stapelkai
 REPOSITORIES?=quay.io/$(PREFIX) ghcr.io/$(PREFIX)
-VERSION?=18.10.0
+VERSION?=14.21.2
 
 # This option is for running docker manifest command
 export DOCKER_CLI_EXPERIMENTAL := enabled
