@@ -1,4 +1,4 @@
-FROM alpine:3.16.2 as builder
+FROM alpine:3.17.0 as builder
 
 RUN apk update
 RUN apk add make g++ python3 gnupg curl file flex patch rsync texinfo
