@@ -13,3 +13,12 @@ jobs:
 
     - name: Build images
       run: make build-images
+  
+  tag:
+    needs:
+      [build]
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Tag images
+      run: make tag-images
